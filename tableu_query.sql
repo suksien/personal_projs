@@ -9,8 +9,8 @@ order by 1, 2;
 -- 2. 
 select location, sum(cast(new_deaths as unsigned)) as total_deaths
 from CovidDeaths
-where continent != ""
-and location not in ("World", "European Union", "International")
+where continent = ""
+and location not in ("World", "European Union", "International") and location not like "%income%"
 group by location
 order by total_deaths desc;
 
