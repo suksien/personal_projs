@@ -1,0 +1,4 @@
+Data source: https://github.com/dosm-malaysia/data-open
+
+To grab "datasets" folder: 
+> svn checkout https://github.com/dosm-malaysia/data-open/trunk/datasets
