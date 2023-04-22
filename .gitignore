@@ -2,3 +2,5 @@ proj2/datasets/
 proj2/.idea/*
 proj2/.idea/
 proj2/.DS_Store
+*.DS_Store*
+*.idea*
